@@ -1,0 +1,324 @@
+@media only screen and (max-width: 1200px) {
+    .body .banner-info {
+        font-size: 1rem;
+        padding-top: 100px;
+        height: 90vh;
+    }
+}
+
+@media only screen and (max-width: 971px) {
+    .head-content {
+        justify-content: space-between;
+    }
+    .head-banner__logo img {
+        width: 120px;
+    }
+    .search-input {
+        width: 80%;
+    }
+    .modal-frame-login {
+        width: 450px;
+    }
+    .grid {
+        gap: 1rem;
+        padding: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+    }
+    .body .banner-info {
+        font-size: 1rem;
+        padding-top: 100px;
+        height: 80vh;
+    }
+    .body .banner-info .title h1 {
+        font-size: 1.8rem;
+    }
+    .content .banner-item {
+        position: absolute;
+        top: -220px;
+        border: 3px solid #000000;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 250px;
+        height: 370px;
+    }
+    .content .content-info {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .head-content {
+        padding: 0 15px;
+    }
+    .head-banner__search {
+        display: none;
+    }
+    .item-select {
+        display: none;
+    }
+    .item-select-2 {
+        display: flex;
+    }
+    .head-banner__menu-1 {
+        display: none;
+    }
+    .head-banner__menu-2 {
+        display: flex;
+    }
+    /* -------------------------------------------icon menu mb------------------------------------------- */
+    .menu-icon-toggle {
+        display: block;
+    }
+    /* -------------------------------------------search suget------------------------------------------- */
+    .suggest-frame {
+        top: 80px;
+        width: 90%;
+    }
+    .suggest-frame .suggest-item {
+        width: 100%;
+    }
+    .modal-frame-login {
+        width: 350px;
+    }
+    /* ==========================================body========================================== */
+    .grid {
+        gap: .5rem;
+        padding: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+    }
+    /* ==========================================footer========================================== */
+    .footer .footer-1,
+    .footer .footer-2 {
+        border: none;
+    }
+    /* *****************************************info********************************************** */
+    .body .banner-info {
+        font-size: 0.9rem;
+        padding-top: 100px;
+    }
+    .body .banner-info .title h1 {
+        font-size: 1.6rem;
+    }
+    .body .banner-info .list-param {
+        margin: 5px;
+    }
+    .body .banner-info .list-param li i {
+        font-size: 1rem;
+    }
+    .body .banner-info .list-status {
+        font-size: 1rem;
+    }
+    .body .banner-info .list-status li {
+        padding: 3px 8px;
+        border-bottom: 2px solid #0dbebe;
+    }
+    .body .banner-info .list-status li span {
+        font-size: 0.9rem;
+    }
+    .body .banner-info .type {
+        margin-top: 10px;
+        width: 300px;
+    }
+    .body .banner-info .type a {
+        font-size: 0.9em;
+        padding: 2.5px 8;
+    }
+    .body .banner-info .play-now {
+        bottom: 15px;
+        right: 15px;
+        font-size: 2.5rem;
+    }
+    .content .banner-item {
+        position: absolute;
+        top: -150px;
+        border: 3px solid #000000;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200px;
+        height: 320px;
+    }
+    .content .content-info {
+        padding: 15px;
+    }
+    .user-operation .save {
+        top: 15px;
+        left: 25px;
+    }
+    .user-operation .rate {
+        top: 15px;
+        right: 25px;
+    }
+    .user-operation .rate,
+    .user-operation .save {
+        font-size: 2rem;
+    }
+
+    .user-operation .save-box,
+    .user-operation .rate-box {
+        width: 300px;
+    }
+    .user-operation .rate-box .list-start {
+        padding: 0 10px;
+    }
+    .content .comment-box {
+        padding: 30px 10px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .item-select a {
+        margin-left: 5px;
+    }
+    .modal-frame-login {
+        transform: translate(-58%, -60%);
+        width: 320px;
+    }
+    .modal-frame-login form {
+        padding: 5px 15px;
+    }
+    .grid {
+        padding: 0;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+    .content .banner-item {
+        position: absolute;
+        top: -130px;
+        border: 3px solid #000000;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 180px;
+        height: 300px;
+    }
+    .content .comment-list {
+        padding: 20px 10px;
+    }
+    .content .comment-list .comment-item {
+        padding: 5px 0;
+    }
+    .content .content-info {
+        padding: 5px;
+    }
+    .content .comment-box form .add-comment-input {
+        font-size: 1rem;
+        width: 80%;
+        height: 35px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .content .comment-box form button {
+        margin-left: 5px;
+        margin-top: 12px;
+        font-size: 0.9rem;
+        height: 30px;
+    }
+    .content .comment-list .comment-item .avatar {
+        width: 40px;
+        height: 40px;
+    }
+    .content .comment-list .comment-item .body-comment {
+        margin-left: 5px;
+    }
+    .content .comment-list .comment-item .body-comment .user-name {
+        justify-content: space-between;
+    }
+    .content .comment-list .comment-item .body-comment .user-name h4 {
+        font-size: 1.2rem;
+    }
+    .content .comment-list .comment-item .body-comment .user-name .time-post {
+        font-size: .7rem;
+    }
+    .content .comment-list .comment-item .body-comment .comment {
+        font-size: 0.9rem;
+    }
+    .content .comment-list .comment-item .body-comment .op-user {
+        font-size: 0.9rem;
+    }
+    .content .comment-list .comment-item .report {
+        padding-right: 5px;
+    }
+    .content .comment-list .comment-item .report button {
+        padding: 0;
+        font-size: 1.3rem;
+    }
+    .content.container-watch {
+        padding: 30px 10px;
+    }
+    .content-video .video-play .controls {
+        height: 40px;
+    }
+    .video-play .controls .progress-area {
+        height: 3px;
+    }
+    .video-play .controls .progress-bar {
+        height: 3px;
+    }
+    .video-play .controls .control-list {
+        width: 98%;
+        height: 40px;
+    }
+    .video-play .controls .icon {
+        margin: 2px;
+    }
+    .video-play .controls .material-icons {
+        font-size: 1.2rem;
+    }
+    .video-play .icon:hover>.volume-range {
+        height: 2px;
+        width: 50px;
+    }
+    .video-play .controls .material-icons.fullscreen {
+        font-size: 1.5rem;
+    }
+    .video-play .controls .controls-right .material-icons {
+        margin: 0;
+    }
+    .video-play .controls .controls-left .timer {
+        font-size: 0.8rem;
+        margin-left: 3px;
+    }
+    #video-player #settings {
+        width: 140px;
+        height: 180px;
+        right: 10px;
+        bottom: 80px;
+        overflow: scroll;
+    }
+    #video-player #settings span {
+        padding: 8px;
+    }
+    #video-player #settings .playback ul li {
+        padding: 5px 20px;
+        font: 1rem;
+    }
+    #video-player #settings .playback ul li.active::before {
+        right: 20px;
+    }
+    .content .user-opration {
+        padding: 10px 0;
+    }
+    .content .user-opration .list-opration li {
+        margin: 0 5px;
+    }
+    .content .user-opration .list-opration li a {
+        padding: 3px 10px;
+        font-size: 1.8rem;
+        border-radius: 3px;
+    }
+    .content .user-opration .list-opration li:nth-child(1) a{
+        background: #068317;
+        padding: 3px 13px;
+    }
+    
+    .content .user-opration .list-opration li:nth-child(2) a {
+        background: #dfe21e;
+        padding: 3px 9px;
+    }
+    /* *****************************************register********************************************** */
+    #register-form {
+    width: 300px;
+    border-radius: 3px;
+    }
+    #register-form .item-field {
+        width: 250px;
+    }
+}

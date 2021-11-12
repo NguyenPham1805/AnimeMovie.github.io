@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Anime movie",
+        "image": "/resources/img/i-title.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Trung Nguyên",
+        "image": "/resources/img/pucat.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Anh da đen",
+        "image": "/resources/img/anh da đen.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Chị hàng xóm",
+        "image": "/resources/img/chi-hang-xom.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Chú người sắt",
+        "image": "/resources/img/ironman.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Chú người sắt",
+        "image": "/resources/img/ironman.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Chú người sắt",
+        "image": "/resources/img/ironman.jpg"
+    }
+]

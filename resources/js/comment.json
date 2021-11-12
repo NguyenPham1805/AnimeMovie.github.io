@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "userId": 1,
+        "content": "Phim dở vãi",
+        "timePost": "11/10/2021",
+        "like": 5,
+        "dislike": 2,
+        "commentsReply": [
+            {
+                "id": 1,
+                "userId": 2,
+                "timePost": "11/10/2021",
+                "content": "Phim hay mà",
+                "like": 3,
+                "dislike": 1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "userId": 3,
+        "content": "Phim đen quá",
+        "timePost": "11/10/2021",
+        "like": 10,
+        "dislike": 2,
+        "commentsReply": []
+    },
+    {
+        "id": 3,
+        "userId": 4,
+        "content": "Ối dồi ôi chết hết luôn",
+        "timePost": "12/10/2021",
+        "like": 3,
+        "dislike": 0,
+        "commentsReply": []
+    },
+    {
+        "id": 4,
+        "userId": 2,
+        "content": "Art phim quá đỉnh luôn :))",
+        "timePost": "12/10/2021",
+        "like": 2,
+        "dislike": 0,
+        "commentsReply": [
+            {
+                "id": 1,
+                "userId": 5,
+                "content": "Hành ufotable mà",
+                "timePost": "12/10/2021",
+                "like": 1,
+                "dislike": 0
+            },
+            {
+                "id": 2,
+                "userId": 4,
+                "content": "Đẹp thua mỗi chị",
+                "timePost": "12/10/2021",
+                "like": 5,
+                "dislike": 0
+            },
+            {
+                "id": 3,
+                "userId": 3,
+                "content": "Vâng, chị đẹp nhất",
+                "timePost": "12/10/2021",
+                "like": 4,
+                "dislike": 1
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "userId": 5,
+        "content": "Không tốn công hóng cả năm",
+        "timePost": "12/10/2021",
+        "like": 3,
+        "dislike": 0,
+        "commentsReply": []
+    }
+]

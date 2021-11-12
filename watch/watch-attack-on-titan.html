@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/vendors/lib/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/vendors/lib/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/resources/css/wacth.css">
+    <link rel="stylesheet" href="/resources/css/queries.css">
+    <link rel="shortcut icon" type="image" href="/resources/img/i-title.jpg">
+    <title>Anime Movie | Xem phim | Fate/stay night Movie: Heaven's Feel - III. Spring Song</title>
+</head>
+
+<body>
+    <header>
+        <div class="head-banner">
+            <div class="head-content">
+                <div class="head-banner__logo">
+                    <a href="/">
+                        <img src="/resources/img/Logo.png" alt="Logo AnimeMV">
+                    </a>
+                </div>
+
+                <div class="head-banner__search">
+                    <form method="get">
+                        <input id="input-lg" class="search-input" type="text" placeholder="Nhập từ khóa..."
+                            name="search">
+                        <button class="search-btn" type="submit"><i class="far fa-search"></i></button>
+                    </form>
+                </div>
+
+                <div class="item-select">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-history"></i></a></li>
+                        <li><a href="#"><i class="far fa-bookmark"></i></a></li>
+                        <li><a id="login-btn" href="#"><i class="far fa-user"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="menu-icon-toggle">
+                    <button><i class="fas fa-bars"></i></button>
+                </div>
+
+                <div class="layer-cover"></div>
+            </div>
+
+            <div class="suggest-frame container">
+                <button class="btn-close"><i class="fas fa-times"></i></button>
+                <ul class="suggest-list"></ul>
+            </div>
+
+            <div class="head-banner__menu-1">
+                <nav>
+                    <ul class="list-item">
+                        <div class="navbar-animation start"></div>
+                        <li class="item-link active"><a href="/">Trang chủ</a></li>
+                        <li class="item-link"><a href="#">Phim lẻ</a></li>
+                        <li class="item-link"><a href="#">Trọn bộ</a></li>
+                        <li class="item-link">
+                            <a href="#">
+                                Thể loại&ensp;
+                                <span class="fas fa-caret-down caret"></span>
+                            </a>
+                            <ul class="drop-down-item">
+                                <li><a href="#">Viễn tưởng</a></li>
+                                <li><a href="#">Tình cảm</a></li>
+                                <li><a href="#">Hành động</a></li>
+                                <li><a href="#">Ma thuật</a></li>
+                                <li><a href="#">Hài Hước</a></li>
+                                <li><a href="#">Kinh dị</a></li>
+                                <li><a href="#">Drama</a></li>
+                                <li><a href="#">Học đường</a></li>
+                                <li><a href="#">Fantasy</a></li>
+                                <li><a href="#">Harem</a></li>
+                                <li><a href="#">Trinh thám</a></li>
+                                <li><a href="#">Đời thường</a></li>
+                                <li><a href="#">Mecha</a></li>
+                                <li><a href="#">Chuyển sinh</a></li>
+                                <li><a href="#">Phiêu lưu</a></li>
+                                <li><a href="#">Âm nhạc</a></li>
+                            </ul>
+                        </li>
+                        <li class="item-link">
+                            <a href="#">
+                                Năm&ensp;
+                                <span class="fas fa-caret-down caret"></span>
+                            </a>
+                            <ul class="drop-down-item drop-2">
+                                <li><a href="#">2021</a></li>
+                                <li><a href="#">2020</a></li>
+                                <li><a href="#">2019</a></li>
+                                <li><a href="#">2018</a></li>
+                                <li><a href="#">2017</a></li>
+                                <li><a href="#">2016</a></li>
+                                <li><a href="#">2015</a></li>
+                                <li><a href="#">2014</a></li>
+                                <li><a href="#">2013</a></li>
+                                <li><a href="#">2012</a></li>
+                                <li><a href="#">2011</a></li>
+                                <li><a href="#">2010</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="head-banner__menu-2">
+                <form method="get">
+                    <input id="input-sm" class="search-input" type="text" placeholder="Nhập từ khóa..." name="search">
+                    <button class="search-btn" type="submit"><i class="far fa-search"></i></button>
+                </form>
+
+                <div class="item-select-2">
+                    <ul class="list-item">
+                        <li><a href="#"><i class="fas fa-history"></i></a></li>
+                        <li><a href="#"><i class="far fa-bookmark"></i></a></li>
+                        <li><a href="#"><i class="far fa-user"></i></a></li>
+                        <li><button class="close-sidebar"><i class="fas fa-times"></i></button></li>
+                    </ul>
+                </div>
+
+                <ul class="list">
+                    <div class="sidebar-animation start"></div>
+                    <li class="item-link-mb active"><a href="/">Trang chủ</a></li>
+                    <li class="item-link-mb"><a href="#">Phim lẻ</a></li>
+                    <li class="item-link-mb"><a href="#">Trọn bộ</a></li>
+                    <li class="item-link-mb">
+                        <a href="#" class="type-mv">
+                            Thể loại
+                            <span class="fas fa-caret-down caret"></span>
+                        </a>
+                        <ul class="drop-down-item-2 list-type">
+                            <li><a href="#">Viễn tưởng</a></li>
+                            <li><a href="#">Tình cảm</a></li>
+                            <li><a href="#">Hành động</a></li>
+                            <li><a href="#">Ma thuật</a></li>
+                            <li><a href="#">Hài Hước</a></li>
+                            <li><a href="#">Kinh dị</a></li>
+                            <li><a href="#">Drama</a></li>
+                            <li><a href="#">Học đường</a></li>
+                            <li><a href="#">Fantasy</a></li>
+                            <li><a href="#">Harem</a></li>
+                            <li><a href="#">Trinh thám</a></li>
+                            <li><a href="#">Đời thường</a></li>
+                            <li><a href="#">Mecha</a></li>
+                            <li><a href="#">Chuyển sinh</a></li>
+                            <li><a href="#">Phiêu lưu</a></li>
+                            <li><a href="#">Âm nhạc</a></li>
+                        </ul>
+                    </li>
+                    <li class="item-link-mb">
+                        <a href="#" class="year-mv">
+                            Năm
+                            <span class="fas fa-caret-down caret"></span>
+                        </a>
+                        <ul class="drop-down-item-2 drop-2 list-year">
+                            <li><a href="#">2021</a></li>
+                            <li><a href="#">2020</a></li>
+                            <li><a href="#">2019</a></li>
+                            <li><a href="#">2018</a></li>
+                            <li><a href="#">2017</a></li>
+                            <li><a href="#">2016</a></li>
+                            <li><a href="#">2015</a></li>
+                            <li><a href="#">2014</a></li>
+                            <li><a href="#">2013</a></li>
+                            <li><a href="#">2012</a></li>
+                            <li><a href="#">2011</a></li>
+                            <li><a href="#">2010</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="modal-frame-login">
+            <div class="modal-head">
+                <img src="/resources/img/Logo.png" alt="AnimeMV">
+            </div>
+
+            <div class="modal-content">
+                <div class="head-content">
+                    <h2 class="modal-title">Đăng nhập</h2>
+                    <button class="btn-close"><i class="fas fa-times"></i></button>
+                </div>
+
+                <form id="form-login" action="post">
+                    <label for="username">Tên người dùng/Email :</label>
+                    <input id="username" class="login-input" type="text" name="username" placeholder="Tên hoặc Email">
+
+                    <label for="username">Mật khẩu :</label>
+                    <input id="password" class="login-input" type="password" name="password" placeholder="Mật khẩu">
+
+                    <div class="btn-submit">
+                        <button type="submit">Đăng nhập</button>
+                    </div>
+                </form>
+
+                <div class="register-bar">
+                    <a href="#">Quyên mật khẩu</a>
+                    <a href="#">Đăng kí ngay</a>
+                </div>
+
+                <div class="socal-login">
+                    <h6 align="center">Hoặc đăng nhập bằng các tài khoản sau</h6>
+
+                    <div class="socal-icon">
+                        <a href="#"><img src="/resources/img/google.png" alt="google.png"></a>
+                        <a href="#"><img src="/resources/img/apple.png" alt="apple.png"></a>
+                        <a href="#"><img src="/resources/img/facebook.png" alt="facebook.png"></a>
+                        <a href="#"><img src="/resources/img/twitter.png" alt="twitter.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="login-layer-cover"></div>
+    </header>
+
+    <main id="body" class="body">
+        <div class="lastes-watch-overlay"></div>
+        <div class="content container container-watch">
+            <div class="title-video">
+                <h3>
+                    <!-- <i class="far fa-film"></i>Fate/stay night Movie: Heaven's Feel - III. Spring Song -->
+                </h3>
+            </div>
+
+            <div class="content-video">
+                <div class="lastes-watch">
+                    <div class="title">
+                        <h4>Bạn đang xem ở đoạn <span></span></h4>
+                    </div>
+                    <div class="option">
+                        <button class="continute">Xem tiếp</button>
+                        <button class="re-watch">Xem Lại</button>
+                    </div>
+                </div>
+
+                <div id="video-player" class="video-play">
+                    <video id="video"></video>
+                    <!-- <video id="video" src="/resources/video/you_cant_not_advance.mp4"></video> -->
+                    <div class="progress-time">0:00:00</div>
+
+                    <div class="controls">
+                        <div class="progress-area">
+                            <div class="progress-bar">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="control-list">
+                            <div class="controls-left">
+                                <span class="icon">
+                                    <i class="material-icons fast-rewind">replay_10</i>
+                                </span>
+
+                                <span class="icon">
+                                    <i class="material-icons play">play_arrow</i>
+                                </span>
+
+                                <span class="icon">
+                                    <i class="material-icons fast-forward">forward_10</i>
+                                </span>
+
+                                <span class="icon">
+                                    <i class="material-icons volume">volume_up</i>
+                                    <input type="range" min="0" max="100" class="volume-range">
+                                </span>
+
+                                <div class="timer">
+                                    <span class="current">0:00:00</span> / <span class="duration">0:00:00</span>
+                                </div>
+                            </div>
+
+                            <div class="controls-right">
+                                <span class="icon">
+                                    <i class="material-icons settings-btn">settings</i>
+                                </span>
+
+                                <span class="icon">
+                                    <i class="material-icons picture-in-picutre">picture_in_picture_alt</i>
+                                </span>
+
+                                <span class="icon">
+                                    <i class="material-icons fullscreen">fullscreen</i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="settings">
+                        <div class="playback">
+                            <span>Playback Speed</span>
+                            <ul>
+                                <li data-speed="0.25">0.25</li>
+                                <li data-speed="0.5">0.5</li>
+                                <li data-speed="0.75">0.75</li>
+                                <li data-speed="1" class="active">Normal</li>
+                                <li data-speed="1.25">1.25</li>
+                                <li data-speed="1.5">1.5</li>
+                                <li data-speed="1.75">1.75</li>
+                                <li data-speed="2">2</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user-opration">
+                    <ul class="list-opration">
+                        <li>
+                            <span>Lưu lại</span>
+                            <a href="#"><i class="far fa-plus-square"></i></a>
+                        </li>
+                        <li>
+                            <span>Đánh giá</span>
+                            <a href="#"><i class="far fa-star"></i></a>
+                        </li>
+                        <li>
+                            <span>Thông tin</span>
+                            <a href="/info/info-fate-stay-night-heaven-feel.html"><i class="far fa-info-circle"></i></a>
+                        </li>
+                        <li>
+                            <span>Yêu thích</span>
+                            <a href="#"><i class="far fa-heart"></i></a>
+                        </li>
+                        <li>
+                            <span>Báo cáo</span>
+                            <a href="#"><i class="far fa-exclamation-circle"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="list-ep">
+                <div class="title">
+                    <h3>Số tập</h3>
+                </div>
+
+                <div class="list-ep-item"></div>
+            </div>
+
+            <div class="comment-box">
+                <div class="status-bar">
+                    <span><i class="far fa-comment-alt-lines"></i>&ensp;Bình luận(155)</span>
+                    <button><i class="far fa-sync-alt"></i></button>
+                </div>
+
+                <div class="comment-content">
+                    <form id="comment-form">
+                        <label class="user-avatar" for="comment-input">
+                            <img src="/resources/img/i-title.jpg">
+                        </label>
+                        <input class="add-comment-input" type="text" name="comment-input" placeholder="Bình luận...">
+                        <button type="submit">Đăng</button>
+                    </form>
+
+                    <div class="comment-list">
+                        <ul class="list">
+                            <li class="comment-item">
+                                <div class="avatar">
+                                    <img src="/resources/img/i-title.jpg">
+                                </div>
+
+                                <div class="body-comment">
+                                    <div class="user-name">
+                                        <h4>Anime movie</h4>
+                                        <span class="time-post">1 giờ trước</span>
+                                    </div>
+
+                                    <div class="comment">
+                                        <p>Phim dảk quá :((</p>
+                                    </div>
+
+                                    <div class="op-user">
+                                        <div class="like">
+                                            <button><i class="fas fa-thumbs-up"></i></button>
+                                            <span>3</span>
+                                        </div>
+
+                                        <div class="dislike">
+                                            <button><i class="fas fa-thumbs-down"></i></button>
+                                            <span>1</span>
+                                        </div>
+
+                                        <div class="reply">
+                                            <button>Phản hồi</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="report">
+                                    <button>...</button>
+                                </div>
+                            </li>
+
+                            <li class="comment-item">
+                                <div class="avatar">
+                                    <img src="/resources/img/i-title.jpg">
+                                </div>
+
+                                <div class="body-comment">
+                                    <div class="user-name">
+                                        <h4>Anime movie</h4>
+                                        <span class="time-post">1 giờ trước</span>
+                                    </div>
+
+                                    <div class="comment">
+                                        <p>Phim dảk quá :((</p>
+                                    </div>
+
+                                    <div class="op-user">
+                                        <div class="like">
+                                            <button><i class="fas fa-thumbs-up"></i></button>
+                                            <span>3</span>
+                                        </div>
+
+                                        <div class="dislike">
+                                            <button><i class="fas fa-thumbs-down"></i></button>
+                                            <span>1</span>
+                                        </div>
+
+                                        <div class="reply">
+                                            <button>Phản hồi</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="report">
+                                    <button>...</button>
+                                </div>
+                            </li>
+
+                            <li class="comment-item">
+                                <div class="avatar">
+                                    <img src="/resources/img/i-title.jpg">
+                                </div>
+
+                                <div class="body-comment">
+                                    <div class="user-name">
+                                        <h4>Anime movie</h4>
+                                        <span class="time-post">1 giờ trước</span>
+                                    </div>
+
+                                    <div class="comment">
+                                        <p>Phim dảk quá :((</p>
+                                    </div>
+
+                                    <div class="op-user">
+                                        <div class="like">
+                                            <button><i class="fas fa-thumbs-up"></i></button>
+                                            <span>3</span>
+                                        </div>
+
+                                        <div class="dislike">
+                                            <button><i class="fas fa-thumbs-down"></i></button>
+                                            <span>1</span>
+                                        </div>
+
+                                        <div class="reply">
+                                            <button>Phản hồi</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="report">
+                                    <button>...</button>
+                                </div>
+                            </li>
+                            <li class="comment-item">
+                                <div class="avatar">
+                                    <img src="/resources/img/i-title.jpg">
+                                </div>
+
+                                <div class="body-comment">
+                                    <div class="user-name">
+                                        <h4>Anime movie</h4>
+                                        <span class="time-post">1 giờ trước</span>
+                                    </div>
+
+                                    <div class="comment">
+                                        <p>Phim dảk quá :((</p>
+                                    </div>
+
+                                    <div class="op-user">
+                                        <div class="like">
+                                            <button><i class="fas fa-thumbs-up"></i></button>
+                                            <span>3</span>
+                                        </div>
+
+                                        <div class="dislike">
+                                            <button><i class="fas fa-thumbs-down"></i></button>
+                                            <span>1</span>
+                                        </div>
+
+                                        <div class="reply">
+                                            <button>Phản hồi</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="report">
+                                    <button>...</button>
+                                </div>
+                            </li>
+
+                            <li class="comment-item">
+                                <div class="avatar">
+                                    <img src="/resources/img/i-title.jpg">
+                                </div>
+
+                                <div class="body-comment">
+                                    <div class="user-name">
+                                        <h4>Anime movie</h4>
+                                        <span class="time-post">1 giờ trước</span>
+                                    </div>
+
+                                    <div class="comment">
+                                        <p>Phim dảk quá :((</p>
+                                    </div>
+
+                                    <div class="op-user">
+                                        <div class="like">
+                                            <button><i class="fas fa-thumbs-up"></i></button>
+                                            <span>3</span>
+                                        </div>
+
+                                        <div class="dislike">
+                                            <button><i class="fas fa-thumbs-down"></i></button>
+                                            <span>1</span>
+                                        </div>
+
+                                        <div class="reply">
+                                            <button>Phản hồi</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="report">
+                                    <button>...</button>
+                                </div>
+                            </li>
+
+                            <li class="comment-item">
+                                <div class="avatar">
+                                    <img src="/resources/img/i-title.jpg">
+                                </div>
+
+                                <div class="body-comment">
+                                    <div class="user-name">
+                                        <h4>Anime movie</h4>
+                                        <span class="time-post">1 giờ trước</span>
+                                    </div>
+
+                                    <div class="comment">
+                                        <p>Phim dảk quá :((</p>
+                                    </div>
+
+                                    <div class="op-user">
+                                        <div class="like">
+                                            <button><i class="fas fa-thumbs-up"></i></button>
+                                            <span>3</span>
+                                        </div>
+
+                                        <div class="dislike">
+                                            <button><i class="fas fa-thumbs-down"></i></button>
+                                            <span>1</span>
+                                        </div>
+
+                                        <div class="reply">
+                                            <button>Phản hồi</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="report">
+                                    <button>...</button>
+                                </div>
+                            </li>
+                            <li class="comment-item">
+                                <div class="avatar">
+                                    <img src="/resources/img/i-title.jpg">
+                                </div>
+
+                                <div class="body-comment">
+                                    <div class="user-name">
+                                        <h4>Anime movie</h4>
+                                        <span class="time-post">1 giờ trước</span>
+                                    </div>
+
+                                    <div class="comment">
+                                        <p>Phim dảk quá :((</p>
+                                    </div>
+
+                                    <div class="op-user">
+                                        <div class="like">
+                                            <button><i class="fas fa-thumbs-up"></i></button>
+                                            <span>3</span>
+                                        </div>
+
+                                        <div class="dislike">
+                                            <button><i class="fas fa-thumbs-down"></i></button>
+                                            <span>1</span>
+                                        </div>
+
+                                        <div class="reply">
+                                            <button>Phản hồi</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="report">
+                                    <button>...</button>
+                                </div>
+                            </li>
+
+                            <li class="comment-item">
+                                <div class="avatar">
+                                    <img src="/resources/img/i-title.jpg">
+                                </div>
+
+                                <div class="body-comment">
+                                    <div class="user-name">
+                                        <h4>Anime movie</h4>
+                                        <span class="time-post">1 giờ trước</span>
+                                    </div>
+
+                                    <div class="comment">
+                                        <p>Phim dảk quá :((</p>
+                                    </div>
+
+                                    <div class="op-user">
+                                        <div class="like">
+                                            <button><i class="fas fa-thumbs-up"></i></button>
+                                            <span>3</span>
+                                        </div>
+
+                                        <div class="dislike">
+                                            <button><i class="fas fa-thumbs-down"></i></button>
+                                            <span>1</span>
+                                        </div>
+
+                                        <div class="reply">
+                                            <button>Phản hồi</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="report">
+                                    <button>...</button>
+                                </div>
+                            </li>
+
+                            <li class="comment-item">
+                                <div class="avatar">
+                                    <img src="/resources/img/i-title.jpg">
+                                </div>
+
+                                <div class="body-comment">
+                                    <div class="user-name">
+                                        <h4>Anime movie</h4>
+                                        <span class="time-post">1 giờ trước</span>
+                                    </div>
+
+                                    <div class="comment">
+                                        <p>Phim dảk quá :((</p>
+                                    </div>
+
+                                    <div class="op-user">
+                                        <div class="like">
+                                            <button><i class="fas fa-thumbs-up"></i></button>
+                                            <span>3</span>
+                                        </div>
+
+                                        <div class="dislike">
+                                            <button><i class="fas fa-thumbs-down"></i></button>
+                                            <span>1</span>
+                                        </div>
+
+                                        <div class="reply">
+                                            <button>Phản hồi</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="report">
+                                    <button>...</button>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="more-comment">
+                            <button id="more-comment-btn">Tải thêm</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <footer>
+        <div class="footer container-fluid">
+            <div class="row">
+                <div class="col-sm-6 footer-1">
+                    <center>
+                        <a class="" href="/">
+                            <img src="/resources/img/Logo.png" alt="Anime movie logo">
+                        </a>
+                    </center>
+
+                    <p>Trang web xem anime miễn phí không quản cáo</p>
+                    <p>Không cho phép sử dụng video với mục đích kinh doanh thu lợi</p>
+
+                    <i class="fab fa-facebook"></i>
+
+                    Fanpage:
+
+                    <a class="fanpage" href="#">facebook.com/page/animeMV</a>
+                </div>
+
+                <div class="col-sm-6 footer-2">
+                    <center>
+                        <h3>Cộng đồng</h3>
+
+                        <div class="community">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-reddit"></i>
+                            <i class="fab fa-youtube"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-discord"></i>
+                            <hr width="60%">
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="foot-last">Copyright &#169;2021 TrungNguyen. All Right severved</div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/vendors/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="/resources/js/video_poces.js"></script>
+    <script src="/resources/js/watch.js"></script>
+    <script type="module" src="/resources/js/search.js"></script>
+    <script type="module" src="/resources/js/page/render-watch-attack-on-titan.js"></script>
+</body>
+
+</html>
